@@ -13,6 +13,8 @@ export default tseslint.config(
       ecmaVersion: 2020,
       globals: globals.browser,
     },
+    env: { browser: true, es2020: true },
+    parser: "@typescript-eslint/parser",
     plugins: {
       "react-hooks": reactHooks,
       "react-refresh": reactRefresh,

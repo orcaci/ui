@@ -49,7 +49,7 @@ export default function Dashboard() {
     <TooltipProvider>
       <div className="grid h-screen w-full pl-[53px]">
         <aside className="inset-y fixed  left-0 z-20 flex h-full flex-col border-r">
-          <div className="border-b p-2">
+          <div className="p-2 hidden border-r bg-muted/40 ">
             <Button variant="outline" size="icon" aria-label="Home">
               <Triangle className="size-5 fill-foreground" />
             </Button>
